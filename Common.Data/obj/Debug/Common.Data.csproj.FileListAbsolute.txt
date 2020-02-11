@@ -1,0 +1,8 @@
+D:\DeveProject\Common.Data\bin\Debug\Common.Data.dll
+D:\DeveProject\Common.Data\bin\Debug\Common.Data.pdb
+D:\DeveProject\Common.Data\bin\Debug\SqlSugar.dll
+D:\DeveProject\Common.Data\bin\Debug\Newtonsoft.Json.dll
+D:\DeveProject\Common.Data\obj\Debug\Common.Data.csprojAssemblyReference.cache
+D:\DeveProject\Common.Data\obj\Debug\Common.Data.csproj.CopyComplete
+D:\DeveProject\Common.Data\obj\Debug\Common.Data.dll
+D:\DeveProject\Common.Data\obj\Debug\Common.Data.pdb
