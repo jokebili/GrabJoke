@@ -46,6 +46,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.lb_date = new System.Windows.Forms.Label();
             this.webBrowser2 = new System.Windows.Forms.WebBrowser();
+            this.button4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_getdata
@@ -81,7 +82,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(130, 39);
+            this.button1.Location = new System.Drawing.Point(93, 39);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 46);
             this.button1.TabIndex = 2;
@@ -91,7 +92,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(249, 39);
+            this.button2.Location = new System.Drawing.Point(184, 39);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 46);
             this.button2.TabIndex = 2;
@@ -101,7 +102,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(367, 39);
+            this.button3.Location = new System.Drawing.Point(275, 39);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 46);
             this.button3.TabIndex = 2;
@@ -201,6 +202,16 @@
             this.webBrowser2.Size = new System.Drawing.Size(471, 338);
             this.webBrowser2.TabIndex = 16;
             // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(366, 39);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 46);
+            this.button4.TabIndex = 2;
+            this.button4.Text = "重新加载";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
             // txt_url
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -217,6 +228,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.rt_txt);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -250,6 +262,7 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label lb_date;
         private System.Windows.Forms.WebBrowser webBrowser2;
+        private System.Windows.Forms.Button button4;
     }
 }
 

@@ -40,11 +40,14 @@ namespace GrabJoke
             this.linkLabel1.Text = "https://www.biedoul.com/index/1";
             this.linkLabel1.Links.Add(0, 0, "https://www.biedoul.com/index/1");
             this.toolTip1.SetToolTip(this.linkLabel1, "点击跳转到对应笑话网站！");
+            LoadJokeData();
+        }
 
+        private void LoadJokeData()
+        {
             lb_zan.Text = "";
             lb_buzan.Text = "";
             lb_date.Text = "";
-
             treeView1.Nodes.Clear();//清空treeView
             mesgg += new showMes(showMessage);
             Thread t = new Thread(new ThreadStart(GetDateAll));
@@ -345,6 +348,11 @@ namespace GrabJoke
                     webBrowser2.DocumentText = rss.Contents;//因为Contents是html，所以应该使用这个来正常显示
                 }
             }
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            LoadJokeData();
         }
     }
 }
