@@ -2,3 +2,8 @@ D:\DeveProject\Common.Util\bin\Debug\Common.Util.dll
 D:\DeveProject\Common.Util\bin\Debug\Common.Util.pdb
 D:\DeveProject\Common.Util\obj\Debug\Common.Util.dll
 D:\DeveProject\Common.Util\obj\Debug\Common.Util.pdb
+D:\GitHub\Common.Util\bin\Debug\Common.Util.dll
+D:\GitHub\Common.Util\bin\Debug\Common.Util.pdb
+D:\GitHub\Common.Util\obj\Debug\Common.Util.csprojAssemblyReference.cache
+D:\GitHub\Common.Util\obj\Debug\Common.Util.dll
+D:\GitHub\Common.Util\obj\Debug\Common.Util.pdb

@@ -6,3 +6,11 @@ D:\DeveProject\Common.Data\obj\Debug\Common.Data.csprojAssemblyReference.cache
 D:\DeveProject\Common.Data\obj\Debug\Common.Data.csproj.CopyComplete
 D:\DeveProject\Common.Data\obj\Debug\Common.Data.dll
 D:\DeveProject\Common.Data\obj\Debug\Common.Data.pdb
+D:\GitHub\Common.Data\bin\Debug\Common.Data.dll
+D:\GitHub\Common.Data\bin\Debug\Common.Data.pdb
+D:\GitHub\Common.Data\bin\Debug\SqlSugar.dll
+D:\GitHub\Common.Data\bin\Debug\Newtonsoft.Json.dll
+D:\GitHub\Common.Data\obj\Debug\Common.Data.csprojAssemblyReference.cache
+D:\GitHub\Common.Data\obj\Debug\Common.Data.csproj.CopyComplete
+D:\GitHub\Common.Data\obj\Debug\Common.Data.dll
+D:\GitHub\Common.Data\obj\Debug\Common.Data.pdb

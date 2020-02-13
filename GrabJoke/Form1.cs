@@ -40,6 +40,9 @@ namespace GrabJoke
             this.linkLabel1.Text = "https://www.biedoul.com/index/1";
             this.linkLabel1.Links.Add(0, 0, "https://www.biedoul.com/index/1");
             this.toolTip1.SetToolTip(this.linkLabel1, "点击跳转到对应笑话网站！");
+            lb_zan.Text = "";
+            lb_buzan.Text = "";
+            lb_date.Text = "";
         }
 
         private void LoadJokeData()

@@ -6,3 +6,11 @@ D:\DeveProject\Business.Model\obj\Debug\Business.Model.pdb
 D:\DeveProject\Business.Model\bin\Debug\SqlSugar.dll
 D:\DeveProject\Business.Model\bin\Debug\Newtonsoft.Json.dll
 D:\DeveProject\Business.Model\obj\Debug\Business.Model.csproj.CopyComplete
+D:\GitHub\Business.Model\bin\Debug\Business.Model.dll
+D:\GitHub\Business.Model\bin\Debug\Business.Model.pdb
+D:\GitHub\Business.Model\bin\Debug\SqlSugar.dll
+D:\GitHub\Business.Model\bin\Debug\Newtonsoft.Json.dll
+D:\GitHub\Business.Model\obj\Debug\Business.Model.csprojAssemblyReference.cache
+D:\GitHub\Business.Model\obj\Debug\Business.Model.csproj.CopyComplete
+D:\GitHub\Business.Model\obj\Debug\Business.Model.dll
+D:\GitHub\Business.Model\obj\Debug\Business.Model.pdb
