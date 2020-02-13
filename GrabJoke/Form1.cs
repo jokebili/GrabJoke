@@ -276,8 +276,8 @@ namespace GrabJoke
         /// <param name="e"></param>
         private void button1_Click(object sender, EventArgs e)
         {
-            Output(DateTime.Now + " → " + " 程序暂停中...请不要关闭程序！", Color.Yellow);
-            if (th != null)
+            Output(DateTime.Now + " → " + " 程序暂停中...请不要关闭程序！", Color.DarkRed);
+            if (th != null&&th.IsAlive)
             {
                 th.Suspend();
             }
@@ -291,7 +291,7 @@ namespace GrabJoke
         private void button2_Click(object sender, EventArgs e)
         {
             Output(DateTime.Now + " → " + " 程序暂停恢复,继续执行...！", Color.Green);
-            if (th != null)
+            if (th != null&&th.IsAlive&&th.ThreadState!=ThreadState.Background)
             {
                 th.Resume();
             }
@@ -305,7 +305,7 @@ namespace GrabJoke
         private void button3_Click(object sender, EventArgs e)
         {
             Output(DateTime.Now + " → " + " 程序已终止执行！", Color.Red);
-            if (th != null)
+            if (th != null && th.IsAlive)
             {
                 th.Abort();
             }
