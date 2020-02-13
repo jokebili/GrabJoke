@@ -139,7 +139,7 @@ namespace GrabJoke
                 string result = Regex.Replace(str, @"[^0-9]+", "");
                 long pageCount = long.Parse(result);
                 Output(DateTime.Now + " → " + " 程序获取到总页数为：" + pageCount + "", Color.Blue);
-                for (int i = 11705; i <= pageCount; i++)
+                for (int i = 1; i <= pageCount; i++)
                 {
                     try
                     {
