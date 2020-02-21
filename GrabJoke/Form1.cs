@@ -352,9 +352,14 @@ namespace GrabJoke
             }
         }
 
+        private delegate void BeginInvokeDelegate();
         private void button4_Click(object sender, EventArgs e)
         {
-            LoadJokeData();
+            var caller = new BeginInvokeDelegate(LoadJokeData);
+            IAsyncResult result= caller.BeginInvoke(null, null);
+            result.AsyncWaitHandle.WaitOne();
+            caller.EndInvoke(result);
+            result.AsyncWaitHandle.Close();
         }
     }
 }
